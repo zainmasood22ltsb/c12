@@ -1,0 +1,76 @@
+
+body{
+    margin: none;
+    padding: none;
+}
+.main{
+    width: 100%;
+    height: 2000px;
+}
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin: none;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #071c35;
+    gap: 60px;
+
+
+}
+.list ul {
+    display: flex;
+    gap: 50px;
+
+}
+.logo h1 {
+    font-family: monospace;
+    color: white;
+
+}
+.logo{
+    width: 200px;
+    height: 100;
+    font
+}
+.list{
+    width: 900px;
+    height: 100px;
+}
+.list ul li {
+    list-style: none;
+}
+.list ul li :hover{
+    background-color: brown;
+
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+}
+.search span {
+    font-family: monospace;
+    color: white;
+}
+
+.search input {
+    background-color: #071c35;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.search input :focus{
+    background-color: black;
+    border: none;
+}
+.search{
+    margin-top: 30px;
+}
